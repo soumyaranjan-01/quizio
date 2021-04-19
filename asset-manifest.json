@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/quizio/static/css/main.aa87a7f1.chunk.css",
+    "main.js": "/quizio/static/js/main.5de9b455.chunk.js",
+    "main.js.map": "/quizio/static/js/main.5de9b455.chunk.js.map",
+    "runtime-main.js": "/quizio/static/js/runtime-main.50d3d78e.js",
+    "runtime-main.js.map": "/quizio/static/js/runtime-main.50d3d78e.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/quizio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3fb1df5c.chunk.js": "/quizio/static/js/2.3fb1df5c.chunk.js",
+    "static/js/2.3fb1df5c.chunk.js.map": "/quizio/static/js/2.3fb1df5c.chunk.js.map",
+    "index.html": "/quizio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/quizio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.aa87a7f1.chunk.css.map": "/quizio/static/css/main.aa87a7f1.chunk.css.map",
+    "static/js/2.3fb1df5c.chunk.js.LICENSE.txt": "/quizio/static/js/2.3fb1df5c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/quizio/static/media/pricing-illustration.9ed4fdab.svg",
+    "static/media/logo.2198bbbe.svg": "/quizio/static/media/logo.2198bbbe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50d3d78e.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3fb1df5c.chunk.js",
+    "static/css/main.aa87a7f1.chunk.css",
+    "static/js/main.5de9b455.chunk.js"
+  ]
+}
