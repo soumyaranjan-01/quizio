@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './App.css';
+import Signin from './Components/auth/Signin';
+import Signup from './Components/auth/Signup';
+import Homepage from "./Components/home/Homepage";
+import Dashboard from "./Components/layouts/dashboard/Dashboard";
+import { AuthProvider } from './contexts/AuthContext'
+import PrivateRoute from './PrivateRoute'
+import ForgotPassword from './Components/auth/ForgotPassword'
+import SetProfile from './Components/layouts/SetProfile';
+import NotFound from './Components/layouts/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <BrowserRouter>
+        <div className="App">
+          <Switch>
+            <Route exact path='/' component={Homepage} />
+            <Route exact path='/signin' component={Signin} />
+            <Route exact path='/signup' component={Signup} />
+            <PrivateRoute exact path='/dashboard' component={Dashboard} />
+            <PrivateRoute exact path='/set-profile' component={SetProfile} />
+            <Route exact path='/forgot-pass' component={ForgotPassword} />
+            <Route component={NotFound} />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 
