@@ -27,7 +27,7 @@ const SetProfile = () => {
                 .then(docRef => console.log(docRef.data()))
                 .catch(err => console.log(err.message))
             
-            history.push('/dashboard')
+            history.push('/quizio/dashboard')
         } catch {
             setError('Failed to setup the account details')
         }

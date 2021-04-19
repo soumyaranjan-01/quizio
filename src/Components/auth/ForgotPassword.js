@@ -47,10 +47,10 @@ const ForgotPassword = () => {
                             </Form>
 
                             <div className="w-100 text-center mt-3" style={{fontSize: '0.78rem'}}>
-                                <Link to="./signin" style={{textDecoration: "none"}}>Sign In</Link>
+                                <Link to="/quizio/signin" style={{textDecoration: "none"}}>Sign In</Link>
                             </div>
                             <div className="w-100 text-center mt-2"style={{fontSize: '0.78rem'}}>
-                                Need an account? <Link to="./signup" style={{textDecoration: "none"}}>Sign Up</Link>
+                                Need an account? <Link to="/quizio/signup" style={{textDecoration: "none"}}>Sign Up</Link>
                             </div>
                         </Card.Body>
                     </Card>

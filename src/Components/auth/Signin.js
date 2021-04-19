@@ -20,7 +20,7 @@ const Signin = () => {
             setError('')
             setLoading(true)
             await signIn(emailRef.current.value, passwordRef.current.value)
-            history.push('/dashboard')
+            history.push('/quizio/dashboard')
         } catch {
             setError('Failed to Sign in')
         }
@@ -38,7 +38,7 @@ const Signin = () => {
                     <Card className="p-4">
                         <Card.Body>
                             <h1 className="m-0 d-flex justify-content-center">
-                                <Link to='/'>
+                                <Link to='/quizio/'>
                                     <img className="header-logo-image" src={Logo} alt="Logo"></img>
                                 </Link>
                             </h1>
@@ -55,10 +55,10 @@ const Signin = () => {
                             </Form>
 
                             <div className="w-100 text-center mt-3" style={{fontSize: '0.78rem'}}>
-                                Forgot your password? <Link to="./forgot-pass" style={{textDecoration: "none"}}>Forgot Password</Link>
+                                Forgot your password? <Link to="/quizio/forgot-pass" style={{textDecoration: "none"}}>Forgot Password</Link>
                             </div>
                             <div className="w-100 text-center mt-2"style={{fontSize: '0.78rem'}}>
-                                Need an account? <Link to="./signup" style={{textDecoration: "none"}}>Sign Up</Link>
+                                Need an account? <Link to="/quizio/signup" style={{textDecoration: "none"}}>Sign Up</Link>
                             </div>
                         </Card.Body>
                     </Card>

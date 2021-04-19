@@ -17,12 +17,12 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Switch>
-            <Route exact path='/' component={Homepage} />
-            <Route exact path='/signin' component={Signin} />
-            <Route exact path='/signup' component={Signup} />
-            <PrivateRoute exact path='/dashboard' component={Dashboard} />
-            <PrivateRoute exact path='/set-profile' component={SetProfile} />
-            <Route exact path='/forgot-pass' component={ForgotPassword} />
+            <Route exact path='/quizio/' component={Homepage} />
+            <Route exact path='/quizio/signin' component={Signin} />
+            <Route exact path='/quizio/signup' component={Signup} />
+            <PrivateRoute exact path='/quizio/dashboard' component={Dashboard} />
+            <PrivateRoute exact path='/quizio/set-profile' component={SetProfile} />
+            <Route exact path='/quizio/forgot-pass' component={ForgotPassword} />
             <Route component={NotFound} />
           </Switch>
         </div>

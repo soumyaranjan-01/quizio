@@ -31,7 +31,7 @@ const Signup = () => {
                         email: emailRef.current.value
                     })
                 })
-            history.push('/set-profile')
+            history.push('/quizio/set-profile')
         } catch {
             setError('Failed to create an account')
         }
@@ -49,7 +49,7 @@ const Signup = () => {
                     <Card className="p-4">
                         <Card.Body>
                             <h1 className="m-0 d-flex justify-content-center">
-                                <Link to='/'>
+                                <Link to='/quizio/'>
                                     <img className="header-logo-image" src={Logo} alt="Logo"></img>
                                 </Link>
                             </h1>
@@ -68,7 +68,7 @@ const Signup = () => {
                                 <Button disabled={loading} type="submit" className="w-100">Sign Up</Button>
                             </Form>
                             <div className="w-100 text-center mt-2" style={{fontSize: '0.78rem'}}>
-                                Already have an account? <Link to="./signin" style={{textDecoration: "none"}}>Sign In</Link>
+                                Already have an account? <Link to="/quizio/signin" style={{textDecoration: "none"}}>Sign In</Link>
                             </div>
                         </Card.Body>
                     </Card>

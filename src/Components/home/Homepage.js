@@ -12,7 +12,7 @@ const Homepage = () => {
                         <div className="site-header-inner">
                             <div className="brand header-brand">
                                 <h1 className="m-0">
-                                    <Link to='/'>
+                                    <Link to='/quizio/'>
                                         <img className="header-logo-image" src={Logo} alt="Logo"></img>
                                     </Link>
                                 </h1>
@@ -28,8 +28,8 @@ const Homepage = () => {
                                     <h1 className="hero-title mt-0">Quiz.io</h1>
                                     <p className="hero-paragraph" style={{color: "#8A94A7"}}>A One stop platform for Quizzes. Platform designed to compete with peers.</p>
                                     <div className="hero-cta">
-                                        <Link className="button button-primary" to="/signin">Sign In</Link>
-                                        <Link className="button" to="/signup">Sign Up</Link>
+                                        <Link className="button button-primary" to="/quizio/signin">Sign In</Link>
+                                        <Link className="button" to="/quizio/signup">Sign Up</Link>
                                     </div>
                                 </div>
                                 <div className="hero-figure anime-element">

@@ -5,7 +5,7 @@ import { useHistory } from 'react-router'
 const NotFound = () => {
     const history = useHistory()
     const routeHome = () => {
-        history.push('/')
+        history.push('/quizio/')
     }
     return (
         <div className="d-flex flex-column justify-content-center" style={{height: '100vh'}}>

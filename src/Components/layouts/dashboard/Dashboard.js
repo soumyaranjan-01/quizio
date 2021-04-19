@@ -45,7 +45,7 @@ const Dashboard = () => {
         setError('')
         try{
             await logout()
-            history.push('/')
+            history.push('/quizio/')
         } catch {
             setError('Failed to logout')
             alert(error)
@@ -66,12 +66,12 @@ const Dashboard = () => {
                     </div>
                 </Card>
                 <Card style={{minHeight: '70vh', background: 'transparent'}}>
-                    <Link className="side-links p-3" to="/dashboard" onClick={() => setPage('Home')}><i className="fa fa-home" aria-hidden="true"></i> Home</Link>
-                    <Link className="side-links p-3" to="/dashboard" onClick={() => setPage('Create Poll')}><i className="fa fa-plus" aria-hidden="true"></i> Create Poll</Link>
-                    <Link className="side-links p-3" to="/dashboard" onClick={() => setPage('Polls')}><i className="fa fa-circle"></i> Polls</Link>
-                    <Link className="side-links p-3" to="/dashboard" onClick={() => setPage('Performance')}><i className="fa fa-angle-double-right" aria-hidden="true"></i> Performance</Link>
-                    <Link className="side-links p-3" to="/dashboard" onClick={() => setPage('Profile')}><i className="fa fa-user" aria-hidden="true"></i> Profile</Link>
-                    <Link className="side-links p-3" to="/dashboard" onClick={() => setPage('Settings')}><i className="fa fa-cog" aria-hidden="true"></i> Settings</Link>
+                    <Link className="side-links p-3" to="/quizio/dashboard" onClick={() => setPage('Home')}><i className="fa fa-home" aria-hidden="true"></i> Home</Link>
+                    <Link className="side-links p-3" to="/quizio/dashboard" onClick={() => setPage('Create Poll')}><i className="fa fa-plus" aria-hidden="true"></i> Create Poll</Link>
+                    <Link className="side-links p-3" to="/quizio/dashboard" onClick={() => setPage('Polls')}><i className="fa fa-circle"></i> Polls</Link>
+                    <Link className="side-links p-3" to="/quizio/dashboard" onClick={() => setPage('Performance')}><i className="fa fa-angle-double-right" aria-hidden="true"></i> Performance</Link>
+                    <Link className="side-links p-3" to="/quizio/dashboard" onClick={() => setPage('Profile')}><i className="fa fa-user" aria-hidden="true"></i> Profile</Link>
+                    <Link className="side-links p-3" to="/quizio/dashboard" onClick={() => setPage('Settings')}><i className="fa fa-cog" aria-hidden="true"></i> Settings</Link>
                     <Link className="side-links p-3" to="#" onClick={handleLogout}><i className="fa fa-sign-out" aria-hidden="true"></i> Logout</Link>
                 </Card>
             </Card>
