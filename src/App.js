@@ -23,7 +23,7 @@ function App() {
             <PrivateRoute exact path='/quizio/dashboard' component={Dashboard} />
             <PrivateRoute exact path='/quizio/set-profile' component={SetProfile} />
             <Route exact path='/quizio/forgot-pass' component={ForgotPassword} />
-            <Route path="/quizio/*" component={NotFound} />
+            <Route path="/*" component={NotFound} />
           </Switch>
         </div>
       </BrowserRouter>
