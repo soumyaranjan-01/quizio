@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/quizio/static/css/main.aa87a7f1.chunk.css",
-    "main.js": "/quizio/static/js/main.5de9b455.chunk.js",
-    "main.js.map": "/quizio/static/js/main.5de9b455.chunk.js.map",
+    "main.js": "/quizio/static/js/main.683fc8d9.chunk.js",
+    "main.js.map": "/quizio/static/js/main.683fc8d9.chunk.js.map",
     "runtime-main.js": "/quizio/static/js/runtime-main.50d3d78e.js",
     "runtime-main.js.map": "/quizio/static/js/runtime-main.50d3d78e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/quizio/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.3fb1df5c.chunk.js",
     "static/css/main.aa87a7f1.chunk.css",
-    "static/js/main.5de9b455.chunk.js"
+    "static/js/main.683fc8d9.chunk.js"
   ]
 }
