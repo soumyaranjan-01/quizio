@@ -34,9 +34,9 @@ const ForgotPassword = () => {
                 style={{ minHeight: "100vh" }}
             >
                 <div className="w-100" style={{ maxWidth: "500px"}}>
-                    <Card className="p-4">
+                    <Card bg="dark" className="p-4">
                         <Card.Body>
-                            <h3 className="text-center mb-4" style={{'color': '#262424'}}>Forgot Password</h3>
+                            <h3 className="text-center mb-4" style={{'color': 'whitesmoke'}}>Forgot Password</h3>
                             {error && <Alert variant="danger">{error}</Alert>}
                             {message && <Alert variant="success">{message}</Alert>}
                             <Form onSubmit={handleSubmit}>

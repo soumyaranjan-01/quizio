@@ -35,14 +35,14 @@ const Signin = () => {
                 style={{ minHeight: "100vh" }}
             >
                 <div className="w-100" style={{ maxWidth: "500px"}}>
-                    <Card className="p-4">
+                    <Card bg="dark" className="p-4">
                         <Card.Body>
                             <h1 className="m-0 d-flex justify-content-center">
                                 <Link to='/quizio/'>
                                     <img className="header-logo-image" src={Logo} alt="Logo"></img>
                                 </Link>
                             </h1>
-                            <h3 className="text-center mb-4" style={{'color': '#262424'}}>Sign In</h3>
+                            <h3 className="text-center mb-4" style={{'color': 'whitesmoke'}}>Sign In</h3>
                             {error && <Alert variant="danger">{error}</Alert>}
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group id="email">
