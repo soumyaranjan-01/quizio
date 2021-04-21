@@ -1,7 +1,21 @@
-<div className="d-flex flex-column justify-content-center" style={{height: '100vh'}}>
-    <h1 style={{fontSize: '6rem', marginBottom: '40px'}}>404 Error.</h1>
-    <p style={{fontSize: '1.3rem'}}>Oops! The page you have requested is not found.</p>
-    <div className="d-flex justify-content-center">
-        <Button variant="outline-secondary" onClick={routeHome}>Go Back</Button>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <script src="https://use.fontawesome.com/bd3c49858a.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>404 Error</title>
+  </head>
+  <body>
+    <div id="root" style="background:#2c332e">
+      <div className="d-flex flex-column justify-content-center" style="height:100vh">
+            <h1 style="font-size:6rem, margin-bottom:40px">404 Error.</h1>
+            <p style="font-size:1.3rem">Oops! The page you have requested is not found.</p>
+            <div className="d-flex justify-content-center">
+                <a variant="btn btn-outline-secondary" href="/quizio/">Go Back</a>
+            </div>
+      </div>
     </div>
-</div>
+  </body>
+</html>
