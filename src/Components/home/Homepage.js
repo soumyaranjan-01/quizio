@@ -108,10 +108,7 @@ const Homepage = () => {
                             </div>
                             <ul className="footer-links list-reset">
                                 <li>
-                                    <Link to="#">Contact</Link>
-                                </li>
-                                <li>
-                                    <Link to="#">About us</Link>
+                                    <p>Mail us at <code>p17312415@gmail.com</code></p>
                                 </li>
                             </ul>
                             <ul className="footer-social-links list-reset">
