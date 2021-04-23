@@ -43,7 +43,7 @@ const SetProfile = () => {
                 <div className="w-100" style={{ maxWidth: "500px"}}>
                     <Card bg="dark" className="p-4">
                         <Card.Body>
-                            <h3 className="text-center mb-4" style={{'color': '#262424'}}>Set Profile</h3>
+                            <h3 className="text-center mb-4" style={{'color': 'whitesmoke'}}>Set Profile</h3>
                             {error && <Alert variant="danger">{error}</Alert>}
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group id="firstname">
