@@ -41,7 +41,7 @@ const SetProfile = () => {
                 style={{ minHeight: "100vh" }}
             >
                 <div className="w-100" style={{ maxWidth: "500px"}}>
-                    <Card className="p-4">
+                    <Card bg="dark" className="p-4">
                         <Card.Body>
                             <h3 className="text-center mb-4" style={{'color': '#262424'}}>Set Profile</h3>
                             {error && <Alert variant="danger">{error}</Alert>}
@@ -58,7 +58,7 @@ const SetProfile = () => {
                                 <Button type="submit" disabled={loading} className="w-100">Next</Button>
                             </Form>
                             <div className="w-100 text-center mt-2" style={{fontSize: '0.78rem'}}>
-                                <Link to="./signup" style={{textDecoration: "none"}}>Back</Link>
+                                <Link to="/quizio/signup" style={{textDecoration: "none"}}>Back</Link>
                             </div>
                         </Card.Body>
                     </Card>
