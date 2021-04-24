@@ -34,12 +34,13 @@ const Dashboard = () => {
         
         userInfoRef.get().then(userInfoRef => {
             if(userInfoRef.exists) {
-                setUser(userInfoRef.data())
+                const data = userInfoRef.data() 
+                setUser(data)
             } else { 
                 console.log("No such user exists")
             }    
         }).catch(err => console.log(err.message))  
-    }, [user])
+    }, [])
     
     async function handleLogout() {
         setError('')

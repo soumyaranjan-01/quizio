@@ -24,10 +24,10 @@ const SetProfile = () => {
                 lastname: lastNameRef.current.value,
                 username: userNameRef.current.value
             }, {merge: true})
-                .then(docRef => console.log(docRef.data()))
                 .catch(err => console.log(err.message))
             
             history.push('/quizio/dashboard')
+            console.log(history)
         } catch {
             setError('Failed to setup the account details')
         }
